@@ -1,0 +1,31 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %} Homepage {% endblock %}
+
+{% block content %}
+    <div class="homepage">
+        
+        {% include 'header.html.twig' %}
+
+        <div class="main-homepage">
+            
+            <div class="add-note-btn">
+                <a href="/addpost" class="add-note-btn-link">
+                    <div class="add-note-icon">&#43;</div>
+                    <div class="add-note-text">Ajouter une note</div>
+                </a>
+            </div>
+
+            <div class="notes">
+
+                {% for note in all_notes %}
+                    <div class="note">
+                        <a href="/post?id= {{ note.id }}"> {{note.title}} </a>
+                    </div>
+                {% endfor %}
+
+            </div>
+            
+        </div>
+    </div>
+{% endblock %}

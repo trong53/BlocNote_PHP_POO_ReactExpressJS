@@ -1,0 +1,423 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+a {
+    cursor: pointer;
+    color: black;
+}
+.homepage, .postpage, .addpost {
+    width: 100%;
+    min-height: 1024px;
+}
+header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(197, 198, 250);
+}
+.logo {
+    width: 350px;
+    object-fit: fill;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.site-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5.7rem;
+    color: blue;
+}
+.main-homepage {
+    width: 100%;
+}
+.add-note-btn {
+    width: 425px;
+    background-color: #e704b6;
+    border-radius: 20px;
+    margin: 50px 5% 50px auto;
+}
+.add-note-btn:hover {
+    background-color: #ce0391;
+}
+.add-note-btn-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.add-note-icon {
+    font-size: 3.5rem;
+    margin: 0 0 5px 0;
+}
+.add-note-text {
+    font-size: 2.3rem;
+    margin: 0 30px;
+}
+.notes {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.note {
+    width: 100%;
+    background-color: #9BDBFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: 2.5rem;
+    padding: 15px 20px;
+}
+.note:hover {
+    background-color: #69c4f8;
+}
+.main-postpage {
+    width: 90%;
+    background-color: #f3f1f1;
+    margin: 30px auto;
+    padding: 10px;
+}
+.note-title {
+    width: 90%;
+    margin: 50px auto;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.note-description {
+    width: 90%;
+    margin: 50px auto;
+    color: black;
+    min-height: 40vh;
+    background-color: white;
+    font-size: 2rem;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 10px 20px;
+}
+.main-addpage {
+    width: 90%;
+    margin: 30px auto;
+}
+.addnote-title {
+    width: 90%;
+    margin: 50px auto;
+    font-size: 3.2rem;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-addpage form {
+    display: flex;
+    flex-direction: column;
+}
+.main-addpage form label {
+    font-size: 2.7rem;
+    margin-left: 30px;
+}
+#note-form-title {
+    width: 100%;
+    border: 1px solid #9BDBFF;
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+#note-form-description {
+    width: 100%;
+    height: 40vh;
+    border: 1px solid #9BDBFF;
+    font-size: 2rem;
+    padding: 10px 20px;
+}
+#note-form-submit {
+    width: 420px;
+    font-size: 3rem;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: #4a5cfa;
+    margin: 40px auto;
+}
+#note-form-submit:hover {
+    background-color: #041ae0;
+}
+.addnote-message {
+    font-size: 1.5rem;
+    color: rgb(248, 47, 124);
+    font-weight: 600;
+    text-align: center;
+}
+.main-error404 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 1441px) {    /*écran*/
+    .logo {
+        width: 400px;
+    }
+    .site-title {
+        font-size: 7rem;
+    }
+    .add-note-btn {
+        width: 520px;
+    }
+    .add-note-icon {
+        font-size: 4rem;
+    }
+    .add-note-text {
+        font-size: 3rem;
+    }
+    .note {
+        font-size: 3.2rem;
+    }
+    .note-title, #note-form-title  {
+        font-size: 3.5rem;
+    }
+    .note-description, #note-form-description {
+        font-size: 3rem;
+    }
+    .addnote-title {
+        font-size: 4.2rem;
+    }
+    .main-addpage form label {
+        font-size: 3.7rem;
+    }
+    #note-form-submit {
+        width: 550px;
+        font-size: 4rem;
+    }
+    .addnote-message {
+        font-size: 2.5rem;
+    }
+    .main-error404 {
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 1281px) and (max-width: 1440px) {   /*ordinateur*/
+    .logo {
+        width: 350px;
+    }
+    .site-title {
+        font-size: 5.9rem;
+    }
+    .add-note-btn {
+        width: 425px;
+    }
+    .add-note-icon {
+        font-size: 3.5rem;
+    }
+    .add-note-text {
+        font-size: 2.3rem;
+    }
+    .note {
+        font-size: 2.5rem;
+    }
+    .note-title, #note-form-title  {
+        font-size: 2.5rem;
+    }
+    .note-description, #note-form-description {
+        font-size: 2rem;
+    }
+    .addnote-title {
+        font-size: 3.2rem;
+    }
+    .main-addpage form label {
+        font-size: 2.7rem;
+    }
+    #note-form-submit {
+        font-size: 3rem;
+    }
+    .addnote-message {
+        font-size: 1.8rem;
+    }
+    .main-error404 {
+        font-size: 2.6rem;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {  /*ordinateur taille petite*/
+    .logo {
+        width: 300px;
+    }
+    .site-title {
+        font-size: 5.2rem;
+    }
+    .add-note-btn {
+        width: 380px;
+    }
+    .add-note-icon {
+        font-size: 3.2rem;
+    }
+    .add-note-text {
+        font-size: 2.1rem;
+        margin: 0 22px;
+    }
+    .note {
+        font-size: 2.2rem;
+    }
+    .note-title, #note-form-title  {
+        font-size: 2.2rem;
+    }
+    .note-description, #note-form-description {
+        font-size: 1.8rem;
+    }
+    .addnote-title {
+        font-size: 2.8rem;
+    }
+    .main-addpage form label {
+        font-size: 2.4rem;
+    }
+    #note-form-submit {
+        width: 370px;
+        font-size: 2.6rem;
+    }
+    .addnote-message {
+        font-size: 1.6rem;
+    }
+    .main-error404 {
+        font-size: 2.2rem;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {    /*tablet*/
+    .logo {
+        width: 250px;
+    }
+    .site-title {
+        font-size: 4.7rem;
+    }
+    .add-note-btn {
+        width: 300px;
+    }
+    .add-note-icon {
+        font-size: 2.8rem;
+    }
+    .add-note-text {
+        font-size: 1.8rem;
+        margin: 0 15px;
+    }
+    .note {
+        font-size: 1.95rem;
+    }
+    .note-title, #note-form-title  {
+        font-size: 1.95rem;
+    }
+    .note-description, #note-form-description {
+        font-size: 1.6rem;
+    }
+    .addnote-title {
+        font-size: 2.5rem;
+    }
+    .main-addpage form label {
+        font-size: 2.1rem;
+    }
+    #note-form-submit {
+        width: 320px;
+        font-size: 2.3rem;
+    }
+    .addnote-message {
+        font-size: 1.4rem;
+    }
+    .main-error404 {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {     /*portable*/
+    .logo {
+        width: 180px;
+    }
+    .site-title {
+        font-size: 3.8rem;
+    }
+    .add-note-btn {
+        width: 220px;
+    }
+    .add-note-icon {
+        font-size: 2.4rem;
+    }
+    .add-note-text {
+        font-size: 1.4rem;
+        margin: 0 10px;
+    }
+    .note {
+        font-size: 1.65rem;
+    }
+    .note-title, #note-form-title  {
+        font-size: 1.65rem;
+    }
+    .note-description, #note-form-description {
+        font-size: 1.35rem;
+    }
+    .addnote-title {
+        font-size: 2.1rem;
+    }
+    .main-addpage form label {
+        font-size: 1.8rem;
+    }
+    #note-form-submit {
+        width: 260px;
+        font-size: 1.95rem;
+    }
+    .addnote-message {
+        font-size: 1.2rem;
+    }
+    .main-error404 {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {     /*portable*/
+    .logo {
+        width: 120px;
+    }
+    .site-title {
+        font-size: 3.2rem;
+    }
+    .add-note-btn {
+        width: 180px;
+    }
+    .add-note-icon {
+        font-size: 2rem;
+    }
+    .add-note-text {
+        font-size: 1.2rem;
+        margin: 0 5px;
+    }
+    .note {
+        font-size: 1.5rem;
+    }
+    .note-title, #note-form-title  {
+        font-size: 1.5rem;
+    }
+    .note-description, #note-form-description {
+        font-size: 1.3rem;
+    }
+    .addnote-title {
+        font-size: 1.8rem;
+    }
+    .main-addpage form label {
+        font-size: 1.6rem;
+    }
+    #note-form-submit {
+        width: 200px;
+        font-size: 1.7rem;
+    }
+    .addnote-message {
+        font-size: 1rem;
+    }
+    .main-error404 {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "acs/blocnote_twig",
+    "authors": [
+        {
+            "name": "trong",
+            "email": "t.vu@codeur.online"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}

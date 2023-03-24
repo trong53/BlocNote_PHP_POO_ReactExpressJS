@@ -1,0 +1,29 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %} Add a note {% endblock %}
+
+{% block content %}
+
+    <div class="addpost">
+        
+        {% include 'header.html.twig' %}
+        
+        <div class="main-addpage">
+            <div class="addnote-title"> Ajouter une note </div>
+            
+            <form action="/addpost" method="POST">
+                
+                <label for="note-form-title">Titre</label>
+                <input type="text" name="title" id="note-form-title" required>
+
+                <label for="note-form-description">Description</label>
+                <textarea name="description" id="note-form-description" required></textarea>
+
+                <input type="submit" name="note-form-submit" id="note-form-submit" value="Enregistrer">
+
+                <div class="addnote-message"> {{message}} </div>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
