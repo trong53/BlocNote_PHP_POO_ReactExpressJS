@@ -2,6 +2,10 @@ Presentation :
 
 https://www.canva.com/design/DAFdcaCNw5w/IEA1dHkew0jiGz4KqisSxw/view
 
+Site web est : 
+
+https://apibnr.abdigitalbusiness.fr/
+
 L’objectif du projet pédagogique est de produire les vidéos tutorielles de développement web en montrant la possibilité de coder un site web par multi techniques de programmation. 
 
 ![cap1](https://user-images.githubusercontent.com/107623849/227521546-e0a1193a-1d68-484a-8f1b-cae32dfc46a9.jpg)
@@ -16,10 +20,6 @@ L’utilisation des voix digitales naturelles dans les vidéos tutorielles a ét
 
 ![cap3](https://user-images.githubusercontent.com/107623849/227521733-fc883093-b286-486e-9a54-1049ae89ee33.jpg)
 ![cap4](https://user-images.githubusercontent.com/107623849/227521760-eadb143e-0ad9-4ab5-ab0a-b37e4ab33ae5.jpg)
-
-De plus, j’ai pu déployer en ligne la version codée avec ReactJS et ExpressJS, dont le site web est 
-
-https://apibnr.abdigitalbusiness.fr/
 
 ![cap5](https://user-images.githubusercontent.com/107623849/227521836-a8075885-242f-4fe3-a11a-6e730c722f6c.jpg)
 
