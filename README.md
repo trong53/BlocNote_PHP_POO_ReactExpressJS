@@ -9,13 +9,17 @@ https://www.canva.com/design/DAFdcaCNw5w/IEA1dHkew0jiGz4KqisSxw/view
 
 https://apibnr.abdigitalbusiness.fr/
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 #### L’objectif du projet pédagogique est de produire les vidéos tutorielles de développement web en montrant la possibilité de coder un site web par multi techniques de programmation. 
 
 ![cap1](https://user-images.githubusercontent.com/107623849/227521546-e0a1193a-1d68-484a-8f1b-cae32dfc46a9.jpg) 
 
 ![cap2](https://user-images.githubusercontent.com/107623849/227521589-e3eca93f-0faa-4a63-8889-5f838cd807d5.jpg)
 
-#### L’utilisation des voix digitales naturelles dans les vidéos tutorielles a été étudiée et appliquée. J’ai produit 5 vidéos pour la version en PHP natif (de 5 à 11 minutes par vidéo) avec l’aide du logiciel de capture vidéo d’écran OBS Studio et du logiciel de montage vidéo Shotcut. 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### L’utilisation des voix digitales naturelles dans les vidéos tutorielles a été étudiée et appliquée. J’ai produit 5 vidéos pour la version en PHP natif (de 5 à 11 minutes par vidéo) avec l’aide du logiciel de capture vidéo d’écran OBS Studio et du logiciel de montage vidéo Shotcut. 
 
 ![cap3](https://user-images.githubusercontent.com/107623849/227521733-fc883093-b286-486e-9a54-1049ae89ee33.jpg)
 ![cap4](https://user-images.githubusercontent.com/107623849/227521760-eadb143e-0ad9-4ab5-ab0a-b37e4ab33ae5.jpg)
