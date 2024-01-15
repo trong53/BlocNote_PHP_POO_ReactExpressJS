@@ -1,8 +1,11 @@
-Presentation :
+## L’objectif du projet pédagogique 
+est de produire les vidéos tutorielles de développement web en montrant la possibilité de coder un site web par multi techniques de programmation. Un site simple de blog, nommé Bloc-Note, a été proposé, qui demande toutefois l’interaction entre le front-end, le back-end et la base de données. La page d’accueil contient toutes les notes enregistrées dans la base de données MySQL. En cliquant sur une note, la page détaillant la note s’affiche. Une note peut être ajoutée à la base de données via la page de l’ajout de note qui contient un formulaire à remplir. Le site a été réalisé avec PHP natif, et puis une autre version avec PHP orienté objet (POO), et enfin une version avec ReactJS et ExpressJS. La version en PHP natif a été réalisée sans et puis avec le moteur de templates Twig. L’utilisation des voix digitales naturelles dans les vidéos tutorielles a été étudiée et appliquée. J’ai produit 5 vidéos pour la version en PHP natif (de 5 à 11 minutes par vidéo) avec l’aide du logiciel de capture vidéo d’écran OBS Studio et du logiciel de montage vidéo Shotcut. De plus, j’ai pu déployer en ligne la version codée avec ReactJS et ExpressJS, dont le site web est https://apibnr.abdigitalbusiness.fr/.
+
+## Presentation :
 
 https://www.canva.com/design/DAFdcaCNw5w/IEA1dHkew0jiGz4KqisSxw/view
 
-Site web est : 
+## Site web est : 
 
 https://apibnr.abdigitalbusiness.fr/
 
